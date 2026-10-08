@@ -1,0 +1,41 @@
+# dependencies
+/node_modules
+
+# editor
+.vscode/
+
+# next.js build cache
+/.next/
+
+# production build (kept out — regenerate with `npm run build`)
+# /out/ is intentionally COMMITTED: this project is frozen as a static
+# artifact ("one version, end"), so the deployable site is part of the repo.
+
+# misc
+.DS_Store
+*.pem
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# typescript
+*.tsbuildinfo
+
+# env files
+.env
+.env*.local
+
+# testing
+/coverage
+
+# personal / internal business documents (local-only, not for the public repo)
+/PROJECT_STORY_EN.md
+/PROJECT_STORY_MK.md
+/launch/
+/MAINTAINING.md
+/PROJECT_DOCS.md
+
+# OS
+Thumbs.db

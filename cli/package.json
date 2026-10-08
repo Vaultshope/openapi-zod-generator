@@ -1,0 +1,41 @@
+{
+  "name": "openapi-zod-gen",
+  "version": "0.1.3",
+  "description": "Correctness-first OpenAPI → Zod/TypeScript code generator CLI. Free codegen; breaking-change detection with a Pro license.",
+  "author": "Vaultshope",
+  "homepage": "https://openapi-zod-generator.pages.dev",
+  "bugs": {
+    "url": "https://github.com/Vaultshope/openapi-zod-generator/issues"
+  },
+  "funding": {
+    "url": "https://openapi-zod-generator.pages.dev/pro"
+  },
+  "bin": {
+    "openapi-zod-gen": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "keywords": [
+    "openapi",
+    "swagger",
+    "zod",
+    "typescript",
+    "codegen",
+    "schema",
+    "breaking-changes",
+    "api"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaultshope/openapi-zod-generator.git",
+    "directory": "cli"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
